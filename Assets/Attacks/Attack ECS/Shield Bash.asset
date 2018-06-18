@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b550653b84944614193417fc805cf893, type: 3}
+  m_Name: Shield Bash
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 32df9b7cee8ee734d8915c5ff42d173f, type: 3}
+  shape: 0
+  stats:
+    keys:
+    - Range
+    - Radius
+    - Push
+    values:
+    - stat_name: Range
+      value: 1
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: Radius
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: Push
+      value: 2
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    init: 0
+  components:
+  - {fileID: 114045449909214348}
+  - {fileID: 114626199559346142}
+  activated_effect: 0
+  target_squares: []
+--- !u!114 &114045449909214348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92910749b9f15884e9c36034d5276fd7, type: 3}
+  m_Name: E Effect
+  m_EditorClassIdentifier: 
+  component_name: Effect on enemy
+  effect_prefab: {fileID: 1693664477656134, guid: 3e32b61b4e11caa4982d25250e1f532f,
+    type: 2}
+--- !u!114 &114626199559346142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e0a180bdc789a42a2bef6018f44b94, type: 3}
+  m_Name: Push
+  m_EditorClassIdentifier: 
+  component_name: Push

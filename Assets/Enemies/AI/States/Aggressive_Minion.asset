@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5001b2ff5c50e9a4b859bfc8e2b4705a, type: 3}
+  m_Name: Aggressive_Minion
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: 1ed36dc0face0164eb7ffe46960490cd, type: 2}
+  - {fileID: 11400000, guid: 3bd77f62b0343ba4bb096ca802460412, type: 2}
+  best_choice: {fileID: 0}
+  transitions:
+  - decision: {fileID: 11400000, guid: fb57f0629990c7641b55829097a4f021, type: 2}
+    trueState: {fileID: 11400000}
+    falseState: {fileID: 11400000, guid: cc3da6b5c6859b64288d45c07805b1ac, type: 2}

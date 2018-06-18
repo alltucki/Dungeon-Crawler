@@ -1,0 +1,1427 @@
+fileFormatVersion: 2
+guid: 112f303011919be4b89deb386ddb3e78
+timeCreated: 1522641708
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: oryx_16bit_fantasy_fx_trans_32_0
+    21300002: oryx_16bit_fantasy_fx_trans_32_1
+    21300004: oryx_16bit_fantasy_fx_trans_32_2
+    21300006: oryx_16bit_fantasy_fx_trans_32_3
+    21300008: oryx_16bit_fantasy_fx_trans_32_4
+    21300010: oryx_16bit_fantasy_fx_trans_32_5
+    21300012: oryx_16bit_fantasy_fx_trans_32_6
+    21300014: oryx_16bit_fantasy_fx_trans_32_7
+    21300016: oryx_16bit_fantasy_fx_trans_32_8
+    21300018: oryx_16bit_fantasy_fx_trans_32_9
+    21300020: oryx_16bit_fantasy_fx_trans_32_10
+    21300022: oryx_16bit_fantasy_fx_trans_32_11
+    21300024: oryx_16bit_fantasy_fx_trans_32_12
+    21300026: oryx_16bit_fantasy_fx_trans_32_13
+    21300028: oryx_16bit_fantasy_fx_trans_32_14
+    21300030: oryx_16bit_fantasy_fx_trans_32_15
+    21300032: oryx_16bit_fantasy_fx_trans_32_16
+    21300034: oryx_16bit_fantasy_fx_trans_32_17
+    21300036: oryx_16bit_fantasy_fx_trans_32_18
+    21300038: oryx_16bit_fantasy_fx_trans_32_19
+    21300040: oryx_16bit_fantasy_fx_trans_32_20
+    21300042: oryx_16bit_fantasy_fx_trans_32_21
+    21300044: oryx_16bit_fantasy_fx_trans_32_22
+    21300046: oryx_16bit_fantasy_fx_trans_32_23
+    21300048: oryx_16bit_fantasy_fx_trans_32_24
+    21300050: oryx_16bit_fantasy_fx_trans_32_25
+    21300052: oryx_16bit_fantasy_fx_trans_32_26
+    21300054: oryx_16bit_fantasy_fx_trans_32_27
+    21300056: oryx_16bit_fantasy_fx_trans_32_28
+    21300058: oryx_16bit_fantasy_fx_trans_32_29
+    21300060: oryx_16bit_fantasy_fx_trans_32_30
+    21300062: oryx_16bit_fantasy_fx_trans_32_31
+    21300064: oryx_16bit_fantasy_fx_trans_32_32
+    21300066: oryx_16bit_fantasy_fx_trans_32_33
+    21300068: oryx_16bit_fantasy_fx_trans_32_34
+    21300070: oryx_16bit_fantasy_fx_trans_32_35
+    21300072: oryx_16bit_fantasy_fx_trans_32_36
+    21300074: oryx_16bit_fantasy_fx_trans_32_37
+    21300076: oryx_16bit_fantasy_fx_trans_32_38
+    21300078: oryx_16bit_fantasy_fx_trans_32_39
+    21300080: oryx_16bit_fantasy_fx_trans_32_40
+    21300082: oryx_16bit_fantasy_fx_trans_32_41
+    21300084: oryx_16bit_fantasy_fx_trans_32_42
+    21300086: oryx_16bit_fantasy_fx_trans_32_43
+    21300088: oryx_16bit_fantasy_fx_trans_32_44
+    21300090: oryx_16bit_fantasy_fx_trans_32_45
+    21300092: oryx_16bit_fantasy_fx_trans_32_46
+    21300094: oryx_16bit_fantasy_fx_trans_32_47
+    21300096: oryx_16bit_fantasy_fx_trans_32_48
+    21300098: oryx_16bit_fantasy_fx_trans_32_49
+    21300100: oryx_16bit_fantasy_fx_trans_32_50
+    21300102: oryx_16bit_fantasy_fx_trans_32_51
+    21300104: oryx_16bit_fantasy_fx_trans_32_52
+    21300106: oryx_16bit_fantasy_fx_trans_32_53
+    21300108: oryx_16bit_fantasy_fx_trans_32_54
+    21300110: oryx_16bit_fantasy_fx_trans_32_55
+    21300112: oryx_16bit_fantasy_fx_trans_32_56
+    21300114: oryx_16bit_fantasy_fx_trans_32_57
+    21300116: oryx_16bit_fantasy_fx_trans_32_58
+    21300118: oryx_16bit_fantasy_fx_trans_32_59
+    21300120: oryx_16bit_fantasy_fx_trans_32_60
+    21300122: oryx_16bit_fantasy_fx_trans_32_61
+    21300124: oryx_16bit_fantasy_fx_trans_32_62
+    21300126: oryx_16bit_fantasy_fx_trans_32_63
+    21300128: oryx_16bit_fantasy_fx_trans_32_64
+    21300130: oryx_16bit_fantasy_fx_trans_32_65
+    21300132: oryx_16bit_fantasy_fx_trans_32_66
+    21300134: oryx_16bit_fantasy_fx_trans_32_67
+    21300136: oryx_16bit_fantasy_fx_trans_32_68
+    21300138: oryx_16bit_fantasy_fx_trans_32_69
+    21300140: oryx_16bit_fantasy_fx_trans_32_70
+    21300142: oryx_16bit_fantasy_fx_trans_32_71
+    21300144: oryx_16bit_fantasy_fx_trans_32_72
+    21300146: oryx_16bit_fantasy_fx_trans_32_73
+    21300148: oryx_16bit_fantasy_fx_trans_32_74
+    21300150: oryx_16bit_fantasy_fx_trans_32_75
+    21300152: oryx_16bit_fantasy_fx_trans_32_76
+    21300154: oryx_16bit_fantasy_fx_trans_32_77
+    21300156: oryx_16bit_fantasy_fx_trans_32_78
+    21300158: oryx_16bit_fantasy_fx_trans_32_79
+    21300160: oryx_16bit_fantasy_fx_trans_32_80
+    21300162: oryx_16bit_fantasy_fx_trans_32_81
+    21300164: oryx_16bit_fantasy_fx_trans_32_82
+    21300166: oryx_16bit_fantasy_fx_trans_32_83
+    21300168: oryx_16bit_fantasy_fx_trans_32_84
+    21300170: oryx_16bit_fantasy_fx_trans_32_85
+    21300172: oryx_16bit_fantasy_fx_trans_32_86
+    21300174: oryx_16bit_fantasy_fx_trans_32_87
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 331
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 331
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 331
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 331
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 331
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 331
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 331
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_7
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 331
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 299
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 299
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 299
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_11
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 299
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_12
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 299
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_13
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 299
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_14
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 299
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_15
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 299
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 267
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_17
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 267
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_18
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 267
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 267
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_20
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 267
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_21
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 267
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_22
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 267
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_23
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 267
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 235
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_25
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 235
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 235
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_27
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 235
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_28
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 235
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_29
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 235
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_30
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 235
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_31
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 235
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 203
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_33
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 203
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_34
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 203
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_35
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 203
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_36
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 203
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_37
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 203
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_38
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 203
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_39
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 203
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 171
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_41
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 171
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_42
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 171
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_43
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 171
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_44
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 171
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_45
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 171
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_46
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 171
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_47
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 171
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 139
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_49
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 139
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_50
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 139
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_51
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 139
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_52
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 139
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_53
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 139
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_54
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 139
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_55
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 139
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 107
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_57
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 107
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_58
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 107
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_59
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 107
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_60
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 107
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_61
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 107
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_62
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 107
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_63
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 107
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 75
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_65
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 75
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_66
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 75
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_67
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 75
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_68
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 75
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_69
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 75
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_70
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 75
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_71
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 75
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 43
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_73
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 43
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_74
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 43
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_75
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 43
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_76
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 43
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_77
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 43
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_78
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 43
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_79
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 43
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 11
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_81
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 11
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_82
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 11
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_83
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 11
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_84
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 11
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_85
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 11
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_86
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 11
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oryx_16bit_fantasy_fx_trans_32_87
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 11
+        width: 32
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

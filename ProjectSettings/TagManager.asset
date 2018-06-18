@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Exit
+  - Treasure
+  - Wall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Blocking Layer
+  - Player
+  - Floor
+  - Walls
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 3219782593
+    locked: 0
+  - name: Items
+    uniqueID: 1275186825
+    locked: 0
+  - name: Units
+    uniqueID: 1857980453
+    locked: 0
+  - name: Effects
+    uniqueID: 175238945
+    locked: 0
+  - name: Fog of War
+    uniqueID: 1810070881
+    locked: 0

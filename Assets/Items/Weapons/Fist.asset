@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f862c9f17bfe424c869e78bc2918e9a, type: 3}
+  m_Name: Fist
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300514, guid: 87fcd87af0631f543a97cbb9e2074278, type: 3}
+  i_type: 1
+  type: 0
+  limit_add: 1
+  skills:
+  - {fileID: 0}
+  perks: []
+  handedness: 0

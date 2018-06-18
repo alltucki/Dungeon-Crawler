@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8028ff256fabe794cb9c5ffadb8c1369, type: 3}
+  m_Name: Poison
+  m_EditorClassIdentifier: 
+  effect_name: Poison
+  turns_remaining: 5
+  sfx: {fileID: 1837911294042910, guid: 4404b98272b7a8543a42290eadecaee4, type: 2}
+  per_turn_effect:
+    op: 0
+    argument: 0
+  on_apply_effect:
+    op: 0
+    argument: 0
+  mod_value: -1
+  stop_apply: 0

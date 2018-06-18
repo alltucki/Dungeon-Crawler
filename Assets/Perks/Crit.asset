@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a4087f1b474774fa12f2a53b14e7fb, type: 3}
+  m_Name: Crit
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: c3d3ed452b43f6743826dab1e116932e, type: 3}
+  sfx: {fileID: 0}
+  description: 25% chance to deal 2x damage
+  trigger: 2
+  stat_comp: 
+  comp_type: 2
+  other_comp: 
+  op: 1
+  base_comp: 25
+  duration: 1
+  turn_duration: 0
+  stat: Damage
+  mod:
+    op: 2
+    argument: 2

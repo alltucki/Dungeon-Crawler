@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a4087f1b474774fa12f2a53b14e7fb, type: 3}
+  m_Name: Forceful Shove
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: e5e7bcb516505aa40bb4d419f51d3028, type: 3}
+  sfx: {fileID: 0}
+  description: Deal one damage when pushing
+  trigger: 2
+  stat_comp: Push
+  comp_type: 0
+  other_comp: 
+  op: 0
+  base_comp: 1
+  duration: 1
+  turn_duration: 0
+  stat: Damage
+  mod:
+    op: 0
+    argument: 1

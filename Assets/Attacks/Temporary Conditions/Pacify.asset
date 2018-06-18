@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ea3e4eb35e296c43a01bda95cee1922, type: 3}
+  m_Name: Pacify
+  m_EditorClassIdentifier: 
+  target_character: {fileID: 0}
+  source_character: {fileID: 0}
+  source_attack: {fileID: 0}
+  turns_remaining: 0
+  max_turns: 2
+  on_start_s: Attack Actions
+  on_turn_s: 
+  on_remove_s: 
+  on_start_m:
+    op: 1
+    argument: 1
+  on_turn_m:
+    op: 0
+    argument: 0
+  on_remove_m:
+    op: 0
+    argument: 0
+  on_start_l: 0
+  on_turn_l: 0
+  on_start_e: {fileID: 0}
+  on_turn_e: {fileID: 0}
+  on_remove_e: {fileID: 0}

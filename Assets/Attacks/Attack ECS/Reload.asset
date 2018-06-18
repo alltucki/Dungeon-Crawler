@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b550653b84944614193417fc805cf893, type: 3}
+  m_Name: Reload
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 41aa71544de7ca149aab8bf5ef31a603, type: 3}
+  shape: 0
+  stats:
+    keys:
+    - Range
+    - Radius
+    values:
+    - stat_name: Range
+      value: 1
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: Radius
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    init: 0
+  components:
+  - {fileID: 114172961723671878}
+  - {fileID: 114993853204521068}
+  - {fileID: 114917959705437484}
+  activated_effect: 1
+  target_squares: []
+--- !u!114 &114172961723671878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b944feb64b861944b9fcf1b89f86ace, type: 3}
+  m_Name: Force bool
+  m_EditorClassIdentifier: 
+  component_name: Force bool
+  return_val: 1
+--- !u!114 &114917959705437484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59555748b5211144f88e98a56db1b409, type: 3}
+  m_Name: Effect on attacker
+  m_EditorClassIdentifier: 
+  component_name: Effect on attacker
+  effect_prefab: {fileID: 1715245077062574, guid: 5d92fee58f35c68439e6950171952c99,
+    type: 2}
+--- !u!114 &114993853204521068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5c8a84fc9af967468e75e26bd33f740, type: 3}
+  m_Name: Switch skill
+  m_EditorClassIdentifier: 
+  component_name: Switch skill
+  replacement_skill: {fileID: 11400000, guid: 6083981c023b05b4d8962229da60e8ad, type: 2}

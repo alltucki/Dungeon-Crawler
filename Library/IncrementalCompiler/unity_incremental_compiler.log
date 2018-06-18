@@ -1,0 +1,15 @@
+ (0,0): GetAnalyzersFromCompilation threw an exception: System.ArgumentException: Illegal characters in path.
+  at System.IO.Path.GetFileName (System.String path) [0x0001b] in <e1a80661d61443feb3dbdaac88eeb776>:0 
+  at UnityEditor.Compilation.CodeAnalyzerManager.GetAnalyzersFromCompilation (System.String assemblyFilename, System.String[] unityCompilerArguments) [0x0002e] in <50909ec437ba4fef93e6aebf9535f3b9>:0 
+ (0,0): GetAnalyzersFromCompilation threw an exception: System.ArgumentException: Illegal characters in path.
+  at System.IO.Path.GetFileName (System.String path) [0x0001b] in <e1a80661d61443feb3dbdaac88eeb776>:0 
+  at UnityEditor.Compilation.CodeAnalyzerManager.GetAnalyzersFromCompilation (System.String assemblyFilename, System.String[] unityCompilerArguments) [0x0002e] in <50909ec437ba4fef93e6aebf9535f3b9>:0 
+ (0,0): GetAnalyzersFromCompilation threw an exception: System.ArgumentException: Illegal characters in path.
+  at System.IO.Path.GetFileName (System.String path) [0x0001b] in <e1a80661d61443feb3dbdaac88eeb776>:0 
+  at UnityEditor.Compilation.CodeAnalyzerManager.GetAnalyzersFromCompilation (System.String assemblyFilename, System.String[] unityCompilerArguments) [0x0002e] in <50909ec437ba4fef93e6aebf9535f3b9>:0 
+ (0,0): GetAnalyzersFromCompilation threw an exception: System.ArgumentException: Illegal characters in path.
+  at System.IO.Path.GetFileName (System.String path) [0x0001b] in <e1a80661d61443feb3dbdaac88eeb776>:0 
+  at UnityEditor.Compilation.CodeAnalyzerManager.GetAnalyzersFromCompilation (System.String assemblyFilename, System.String[] unityCompilerArguments) [0x0002e] in <50909ec437ba4fef93e6aebf9535f3b9>:0 
+ (0,0): GetAnalyzersFromCompilation threw an exception: System.ArgumentException: Illegal characters in path.
+  at System.IO.Path.GetFileName (System.String path) [0x0001b] in <e1a80661d61443feb3dbdaac88eeb776>:0 
+  at UnityEditor.Compilation.CodeAnalyzerManager.GetAnalyzersFromCompilation (System.String assemblyFilename, System.String[] unityCompilerArguments) [0x0002e] in <50909ec437ba4fef93e6aebf9535f3b9>:0 

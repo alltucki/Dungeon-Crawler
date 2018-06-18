@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b550653b84944614193417fc805cf893, type: 3}
+  m_Name: Parry
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: f9436165adb981846921efc0ba71511b, type: 3}
+  shape: 0
+  stats:
+    keys:
+    - Range
+    - Radius
+    - Cooldown
+    values:
+    - stat_name: Range
+      value: 1
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: Radius
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: Cooldown
+      value: 4
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    init: 1
+  components:
+  - {fileID: 114679081715645086}
+  - {fileID: 114717099836885406}
+  activated_effect: 0
+  target_squares: []
+--- !u!114 &114679081715645086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43210f4c1de190e4e9efceb23b82e5f2, type: 3}
+  m_Name: Cooldown
+  m_EditorClassIdentifier: 
+  component_name: Cooldown
+--- !u!114 &114717099836885406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a70ed87dee6e8e14ea8da5057b0ae740, type: 3}
+  m_Name: Applies condition attacker
+  m_EditorClassIdentifier: 
+  component_name: Applies condition attacker
+  condition: {fileID: 11400000, guid: 4fd4d751decea06418d58b60622ce6ce, type: 2}

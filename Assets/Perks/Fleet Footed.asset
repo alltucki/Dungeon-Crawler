@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a4087f1b474774fa12f2a53b14e7fb, type: 3}
+  m_Name: Fleet Footed
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 129f7c7b2f9884149b9a88a8cafb4f85, type: 3}
+  sfx: {fileID: 0}
+  description: Randomly gain an additional movement action
+  trigger: 1
+  stat_comp: 
+  comp_type: 2
+  other_comp: 
+  op: 0
+  base_comp: 25
+  duration: 2
+  turn_duration: 0
+  stat: Move Actions
+  mod:
+    op: 0
+    argument: 1
