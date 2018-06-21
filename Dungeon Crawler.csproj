@@ -287,6 +287,33 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="AsyncBridge.Net35">
+      <HintPath>Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Api">
+      <HintPath>Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Logging">
+      <HintPath>Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Unity">
+      <HintPath>Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Posix">
+      <HintPath>Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
+    </Reference>
+    <Reference Include="ReadOnlyCollectionsInterfaces">
+      <HintPath>Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="sfw.net">
+      <HintPath>Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/chedd_000/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -308,33 +335,6 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/chedd_000/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
-    <Reference Include="GitHub.Logging">
-      <HintPath>Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
-    </Reference>
-    <Reference Include="ReadOnlyCollectionsInterfaces">
-      <HintPath>Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Unity">
-      <HintPath>Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading">
-      <HintPath>Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Api">
-      <HintPath>Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
-    </Reference>
-    <Reference Include="AsyncBridge.Net35">
-      <HintPath>Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Posix">
-      <HintPath>Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
-    <Reference Include="sfw.net">
-      <HintPath>Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -346,9 +346,11 @@
     <Compile Include="Assets\add_stat_interact.cs" />
     <Compile Include="Assets\Attacks\Attack ECS\attack_editor.cs" />
     <Compile Include="Assets\Attacks\Attack ECS\attack_entity.cs" />
+    <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\adds_charge_component.cs" />
     <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\applies_condition_attacker_component.cs" />
     <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\applies_condition_target_component.cs" />
     <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\attack_component.cs" />
+    <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\consumes_charge_component.cs" />
     <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\cooldown_component.cs" />
     <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\create_projectile_component.cs" />
     <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\dash_component.cs" />

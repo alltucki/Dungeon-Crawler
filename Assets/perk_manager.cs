@@ -55,13 +55,20 @@ public class perk_manager : MonoBehaviour {
         if(progression_trigger >= 2)
         {
             progression_trigger = 0;
-            add_perk();
+            GameObject.Instantiate(canvas_prefab);
         }
     }
 
     public void add_perk()
     {
         Perk new_perk = Object.Instantiate(perk_ref[test_index]);
+        Debug.Log("Added " + new_perk.name);
+        active_perks.Add(new_perk);
+        new_perk.add_perk();
+    }
+
+    public void add_perk(Perk new_perk)
+    {
         Debug.Log("Added " + new_perk.name);
         active_perks.Add(new_perk);
         new_perk.add_perk();

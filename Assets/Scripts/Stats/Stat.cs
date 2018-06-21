@@ -19,16 +19,20 @@ public class Stat {
 
     public void add_modifier(Modifier new_mod)
     {
-        Debug.Log("Added modifier " + new_mod.ToString() + " to " + stat_name);
-        Debug.Log("Current value is " + get_value());
+        //Debug.Log("Added modifier " + new_mod.ToString() + " to " + stat_name);
+        //Debug.Log("Current value is " + get_value());
         active_modifiers.Add(new_mod);
-        Debug.Log("Modified value is " + get_value());
+        //Debug.Log("Modified value is " + get_value());
     }
 
     public void remove_modifier(Modifier old_mod)
     {
         active_modifiers.Remove(old_mod);
+    }
 
+    public int get_num_modifiers()
+    {
+        return active_modifiers.Count;
     }
 
     public int get_value()

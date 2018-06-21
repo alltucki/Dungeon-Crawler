@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b550653b84944614193417fc805cf893, type: 3}
+  m_Name: Throwing Knife
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 9c562e82fa7d10a4086b687c5bb18a73, type: 3}
+  shape: 1
+  stats:
+    keys:
+    - Range
+    - Radius
+    - Throwing Knife_cost
+    - Damage
+    - Push
+    - Pierce
+    - Knife
+    values:
+    - stat_name: Range
+      value: 5
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: Radius
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: Throwing Knife_cost
+      value: 1
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: Damage
+      value: 1
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: Push
+      value: 1
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: Pierce
+      value: 1
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: Knife
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    init: 1
+  components:
+  - {fileID: 114089105627784252}
+  - {fileID: 114743158427196756}
+  - {fileID: 114152717853857172}
+  - {fileID: 114216587048052166}
+  - {fileID: 114468979002408384}
+  activated_effect: 0
+  target_squares: []
+--- !u!114 &114089105627784252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8faaf0fbcbe015a40a30593cba5f55d8, type: 3}
+  m_Name: Line Limit
+  m_EditorClassIdentifier: 
+  component_name: Line Limit
+--- !u!114 &114152717853857172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bf4d649d6f0bcc439cedac51ba2b70f, type: 3}
+  m_Name: Create Projectile
+  m_EditorClassIdentifier: 
+  component_name: Create Projectile
+  projectile: {fileID: 1890392620931392, guid: 5f195049d6e09fa44ae8663773dd4f06, type: 2}
+  type: 0
+--- !u!114 &114216587048052166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efaf7154453654049aaa7f26d18213e2, type: 3}
+  m_Name: Direct damage
+  m_EditorClassIdentifier: 
+  component_name: Direct damage
+--- !u!114 &114468979002408384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e0a180bdc789a42a2bef6018f44b94, type: 3}
+  m_Name: Push
+  m_EditorClassIdentifier: 
+  component_name: Push
+--- !u!114 &114743158427196756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ef68e285538e334fa7659bb784c513a, type: 3}
+  m_Name: Consumes charge
+  m_EditorClassIdentifier: 
+  component_name: Consumes charge
+  charge_name: Knife

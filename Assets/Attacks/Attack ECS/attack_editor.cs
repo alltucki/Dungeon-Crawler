@@ -124,6 +124,8 @@ public class attack_editor : Editor
             menu.AddItem(new GUIContent("Temporary condition on target"), false, add_component, new applies_condition_target_component());
             menu.AddItem(new GUIContent("Temporary condition on attacker"), false, add_component, new applies_condition_attacker_component());
             menu.AddItem(new GUIContent("Cooldown"), false, add_component, new cooldown_component());
+            menu.AddItem(new GUIContent("Add charge"), false, add_component, new adds_charge_component());
+            menu.AddItem(new GUIContent("Consumes charge"), false, add_component, new consumes_charge_component());
             menu.ShowAsContext();
         }
 

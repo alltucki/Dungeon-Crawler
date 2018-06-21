@@ -75,13 +75,19 @@ public class Stat_Interface {
             Debug.LogError("Could not find key " + index);
             return;
         }
+        //Debug.Log("Added " + new_mod.op.ToString() + new_mod.argument.ToString() + " modifier to " + index);
+        //Debug.Log("Current value: " + get_stat_value(index) + " with " + get_stat(index).get_num_modifiers() + " modifiers");
         get_stat(index).add_modifier(new_mod);
+        //Debug.Log("New value: " + get_stat_value(index) + " with " + get_stat(index).get_num_modifiers() + " modifiers");
     }
 
     //Remove a modifier from a stat
     public void remove_modifier(Modifier old_mod, string index)
     {
+        //Debug.Log("Removed " + old_mod.op.ToString() + old_mod.argument.ToString() + " modifier from " + index);
+        //Debug.Log("Current value: " + get_stat_value(index) + " with " + get_stat(index).get_num_modifiers() + " modifiers");
         get_stat(index).remove_modifier(old_mod);
+        //Debug.Log("New value: " + get_stat_value(index) + " with " + get_stat(index).get_num_modifiers() + " modifiers");
     }
 
     //Returns the actual value of the requested stat, with modifiers taken into account

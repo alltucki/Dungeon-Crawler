@@ -206,7 +206,7 @@ public class game_manager : MonoBehaviour {
         }
         if (enemies_cleared || enemies.Count <= 0)
         {
-            //Debug.Log("Player started turn");
+            //Debug.LogWarning("Player started turn");
             players_turn = true;
             util_ref.e_manager.hide_enemies();
             current_actor = player;

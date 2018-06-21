@@ -9,6 +9,7 @@ public class hover_box : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     public Sprite on_hover, on_exit;
     public GameObject attached_player;
     public equipment[] equipment;
+    public Perk[] perks;
     private character_select char_select;
 
 	// Use this for initialization
@@ -18,6 +19,10 @@ public class hover_box : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
         {
             equipment[i] = Object.Instantiate(equipment[i]);
             equipment[i].init();
+        }
+        for(int i = 0; i < perks.Length; i++)
+        {
+            perks[i] = Object.Instantiate(perks[i]);
         }
 	}
 	

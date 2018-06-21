@@ -37,6 +37,8 @@ public class Perk : ScriptableObject
     public string stat;                 //The stat that will be modified
     public Modifier mod;                //The operation applied to the stat
 
+    private attack_entity attack_ref;   //A reference to the attack that triggered this perk
+
     public void add_perk()
     {
         switch (trigger)
@@ -84,9 +86,9 @@ public class Perk : ScriptableObject
 
     public void activate_perk()
     {
-        Debug.Log("Activated perk " + name);
+        //Debug.Log("Activated perk " + name);
 
-        switch(trigger)
+        switch (trigger)
         {
             case trigger_enum.always:
                 activate_effect();
@@ -102,35 +104,37 @@ public class Perk : ScriptableObject
                 }
                 break;
             case trigger_enum.on_attack:
-                if (util_ref.events.last_attack.attacker.stats.has_stat(stat))
+                if (util_ref.events.last_attack.attacker.stats.has_stat(stat) && check_condition(util_ref.events.last_attack))
                 {
                     activate_effect();
                     util_ref.events.last_attack.attacker.stats.add_modifier(mod, stat);
                 }
-                else if (util_ref.events.last_attack.attack_ref.stats.has_stat(stat))
+                else if (util_ref.events.last_attack.attack_ref.stats.has_stat(stat) && check_condition(util_ref.events.last_attack))
                 {
+                    attack_ref = util_ref.events.last_attack.attack_ref;
                     activate_effect();
                     util_ref.events.last_attack.attack_ref.stats.add_modifier(mod, stat);
                 }
                 else
                 {
-                    Debug.LogError("Could not find stat " + stat + " in attacker or attack");
+                    //Debug.LogError("Could not find stat " + stat + " in attacker or attack");
                 }
                 break;
             case trigger_enum.on_attacked:
-                if (util_ref.events.last_attack.target.stats.has_stat(stat))
+                if (util_ref.events.last_attack.target.stats.has_stat(stat) && check_condition(util_ref.events.last_attack))
                 {
                     activate_effect();
                     util_ref.events.last_attack.target.stats.add_modifier(mod, stat);
                 }
-                else if (util_ref.events.last_attack.attack_ref.stats.has_stat(stat))
+                else if (util_ref.events.last_attack.attack_ref.stats.has_stat(stat) && check_condition(util_ref.events.last_attack))
                 {
+                    attack_ref = util_ref.events.last_attack.attack_ref;
                     activate_effect();
                     util_ref.events.last_attack.attack_ref.stats.add_modifier(mod, stat);
                 }
                 else
                 {
-                    Debug.LogError("Could not find stat" + stat + " in target or attack");
+                    //Debug.LogError("Could not find stat " + stat + " in target or attack");
                 }
                 break;
             default:
@@ -257,7 +261,7 @@ public class Perk : ScriptableObject
     private void turn_remove()
     {
         turns_remaining = turn_duration + 1;
-        util_ref.events.stop_listening(util_ref.p_manager.cur_player.name + "_start_turn", inc_turn);
+        util_ref.events.start_listening(util_ref.p_manager.cur_player.name + "_start_turn", inc_turn);
     }
 
     public void inc_turn()
@@ -273,8 +277,8 @@ public class Perk : ScriptableObject
 
     public void remove_perk()
     {
-        //Debug.Log("Removed bonus of perk " + name);
-
+        Debug.Log("Removed bonus of perk " + name);
+        Debug.Log("Trigger: " + trigger.ToString());
         switch (trigger)
         {
             case trigger_enum.always:
@@ -284,13 +288,13 @@ public class Perk : ScriptableObject
                 util_ref.p_manager.cur_player.GetComponent<rpg_character>().stats.remove_modifier(mod, stat);
                 break;
             case trigger_enum.on_attack:
-                if (util_ref.events.last_attack.attacker.stats.has_stat(stat))
+                if (util_ref.p_manager.cur_player.GetComponent<rpg_character>().stats.has_stat(stat))
                 {
-                    util_ref.events.last_attack.attacker.stats.remove_modifier(mod, stat);
+                    util_ref.p_manager.cur_player.GetComponent<rpg_character>().stats.remove_modifier(mod, stat);
                 }
-                else if (util_ref.events.last_attack.attack_ref.stats.has_stat(stat))
+                else if (attack_ref.stats.has_stat(stat))
                 {
-                    util_ref.events.last_attack.attack_ref.stats.remove_modifier(mod, stat);
+                    attack_ref.stats.remove_modifier(mod, stat);
                 }
                 else
                 {
@@ -298,13 +302,14 @@ public class Perk : ScriptableObject
                 }
                 break;
             case trigger_enum.on_attacked:
-                if (util_ref.events.last_attack.target.stats.has_stat(stat))
+                if (util_ref.p_manager.cur_player.GetComponent<rpg_character>().stats.has_stat(stat))
                 {
-                    util_ref.events.last_attack.target.stats.remove_modifier(mod, stat);
+                    Debug.Log("Removed from player");
+                    util_ref.p_manager.cur_player.GetComponent<rpg_character>().stats.remove_modifier(mod, stat);
                 }
-                else if (util_ref.events.last_attack.attack_ref.stats.has_stat(stat))
+                else if (attack_ref.stats.has_stat(stat))
                 {
-                    util_ref.events.last_attack.attack_ref.stats.remove_modifier(mod, stat);
+                    attack_ref.stats.remove_modifier(mod, stat);
                 }
                 else
                 {

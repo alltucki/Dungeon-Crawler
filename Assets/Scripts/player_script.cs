@@ -35,6 +35,7 @@ public class player_script : MonoBehaviour
 
         //Equip starting items
         util_ref.p_manager.equip_starting_items();
+        util_ref.p_manager.equip_starting_perks();
 
         //Set hotbar
         inv.init(this);
@@ -254,9 +255,10 @@ public class player_script : MonoBehaviour
 
     private void check_pass()
     {
-        if(has_passed)
+        float pass = Input.GetAxis("Jump");
+        if (has_passed)
         {
-            if(Input.GetAxis("Jump") == 0f)
+            if(pass == 0f)
             {
                 has_passed = false;
             }
@@ -265,11 +267,12 @@ public class player_script : MonoBehaviour
                 return;
             }
         }
-        if(util_ref.g_manager.players_turn && Input.GetAxis("Jump") != 0f)
+        if(util_ref.g_manager.players_turn && pass != 0f)
         {
-            attached_character.stats.set_stat("Move Actions", 0);
-            attached_character.stats.set_stat("Attack Actions", 0);
-            attached_character.stats.set_stat("Shared Actions", 0);
+            //Setting to an extreme negative value to accommodate possible bonuses to actions
+            attached_character.stats.set_stat("Move Actions", -10);
+            attached_character.stats.set_stat("Attack Actions", -10);
+            attached_character.stats.set_stat("Shared Actions", -10);
             has_passed = true;
         }
     }

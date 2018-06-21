@@ -7,6 +7,7 @@ public class player_manager : MonoBehaviour {
     public GameObject player_holder, cur_player, torch_prefab;
     public player_script p_script;
     public equipment[] starting_equipment;
+    public Perk[] starting_perks;
     private map_feature_spawner features;
     private bool game_over;
     private Color to_red;
@@ -35,6 +36,8 @@ public class player_manager : MonoBehaviour {
     {
         player_holder = player_ref.GetComponent<hover_box>().attached_player;
         starting_equipment = player_ref.GetComponent<hover_box>().equipment;
+        starting_perks = player_ref.GetComponent<hover_box>().perks;
+
         GameObject.Find("Menu Manager").GetComponent<menu_manager>().launch_god_menu();
     }
 
@@ -57,6 +60,14 @@ public class player_manager : MonoBehaviour {
         for (int i = 0; i < starting_equipment.Length; i++)
         {
             p_script.inv.equip(starting_equipment[i]);
+        }
+    }
+
+    public void equip_starting_perks()
+    {
+        for(int i = 0; i < starting_perks.Length; i++)
+        {
+            util_ref.perks.add_perk(Object.Instantiate(starting_perks[i]));
         }
     }
 

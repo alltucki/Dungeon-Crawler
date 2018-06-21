@@ -335,6 +335,11 @@ public class player_inventory
         return skills[i];
     }
 
+    public int get_skill_index(attack_entity reference)
+    {
+        return skills.IndexOf(reference);
+    }
+
     public List<attack_entity> get_weapon_skills()
     {
         return skills;
