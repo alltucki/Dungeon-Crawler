@@ -15,9 +15,17 @@ public class adds_charge_component : attack_component
 
     public override bool activate(rpg_character attacker, attack_entity triggering_attack)
     {
+        //Need to set stat in character so other attacks can reference the charges
         if(triggering_attack.activated_effect)
         {
-            triggering_attack.stats.get_stat(charge_name).inc_value();
+            if(!attacker.stats.has_stat(charge_name))
+            {
+                attacker.stats.init_stat(charge_name);
+                attacker.stats.set_stat_max(charge_name, max_charge);
+            }
+            attacker.stats.get_stat(charge_name).inc_value();
+            //triggering_attack.stats.get_stat(charge_name).inc_value();
+            Debug.Log(charge_name + " is now " + attacker.stats.get_stat_value(charge_name));
         }
         return triggering_attack.activated_effect;
     }
@@ -31,10 +39,10 @@ public class adds_charge_component : attack_component
 
     public override void editor_layout(attack_entity attack_ref)
     {
-        string old_name = charge_name;
+        //string old_name = charge_name;
         charge_name = EditorGUILayout.TextField(charge_name);
         max_charge = EditorGUILayout.IntField(max_charge);
-        
+        /*
         if(attack_ref.stats.has_stat(old_name))
         {
             attack_ref.stats.remove_stat(attack_ref.stats.get_stat(old_name));
@@ -42,5 +50,6 @@ public class adds_charge_component : attack_component
 
         attack_ref.stats.init_stat(charge_name);
         attack_ref.stats.set_stat_max(charge_name, max_charge);
+        */
     }
 }

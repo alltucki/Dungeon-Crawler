@@ -21,7 +21,24 @@ MonoBehaviour:
     - Damage
     - Push
     - Pierce
-    - Knife
+    - cost
+    - cost
+    - cost
+    - cost
+    - cost
+    - cost
+    - cost
+    - cost
+    - cost
+    - cost
+    - cost
+    - cost
+    - cost
+    - cost
+    - cost
+    - cost
+    - cost
+    - cost
     values:
     - stat_name: Range
       value: 5
@@ -53,7 +70,92 @@ MonoBehaviour:
       max_value: 0
       has_max: 0
       active_modifiers: []
-    - stat_name: Knife
+    - stat_name: cost
+      value: 1
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
       value: 0
       max_value: 0
       has_max: 0
