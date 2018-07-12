@@ -8,6 +8,6 @@ public class consumable : item {
 
     private void Awake()
     {
-        effect = Object.Instantiate(effect);
+        //effect = Object.Instantiate(effect);
     }
 }

@@ -20,6 +20,8 @@ public class util_ref : MonoBehaviour {
     public static perk_manager perks;
     public static palette cur_palette;
 
+    public static rpg_character game_master;
+
     public GameObject hotbar_ref, sprite_ref, pickup_ref;
 
     public static Color[] colors;
@@ -45,6 +47,7 @@ public class util_ref : MonoBehaviour {
         d_manager = GameObject.Find("Dijkstra Manager").GetComponent<dijkstra_manager>();
         events = GameObject.Find("Event Manager").GetComponent<event_manager>();
 
+        game_master = new rpg_character();
 
         colors = new Color[7];
         colors[0] = Color.green;

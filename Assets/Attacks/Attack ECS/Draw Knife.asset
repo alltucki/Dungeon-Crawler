@@ -38,6 +38,7 @@ MonoBehaviour:
   components:
   - {fileID: 114618095223773336}
   - {fileID: 114519607419667784}
+  tags: 0
   activated_effect: 0
   target_squares: []
 --- !u!114 &114519607419667784

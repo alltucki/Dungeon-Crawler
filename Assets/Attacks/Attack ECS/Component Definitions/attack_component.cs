@@ -12,6 +12,16 @@ public abstract class attack_component : ScriptableObject
 
     }
 
+    public virtual void on_equip()
+    {
+        Debug.Log("Called on_equip");
+    }
+
+    public virtual void on_unequip()
+    {
+
+    }
+
     public abstract void add(attack_entity target);
 
     public abstract bool activate(rpg_character attacker, attack_entity triggering_attack);

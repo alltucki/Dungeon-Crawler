@@ -6,7 +6,7 @@ using UnityEditor;
 public class adds_charge_component : attack_component
 {
     [SerializeField]string charge_name;
-    [SerializeField] int max_charge;
+    [SerializeField]int max_charge;
 
     public adds_charge_component()
     {
@@ -16,12 +16,17 @@ public class adds_charge_component : attack_component
     public override bool activate(rpg_character attacker, attack_entity triggering_attack)
     {
         //Need to set stat in character so other attacks can reference the charges
-        if(triggering_attack.activated_effect)
+        if (triggering_attack.activated_effect)
         {
             if(!attacker.stats.has_stat(charge_name))
             {
                 attacker.stats.init_stat(charge_name);
                 attacker.stats.set_stat_max(charge_name, max_charge);
+            }
+            if (attacker.stats.get_stat_value(charge_name) == max_charge)
+            {
+                triggering_attack.activated_effect = false;
+                return false;
             }
             attacker.stats.get_stat(charge_name).inc_value();
             //triggering_attack.stats.get_stat(charge_name).inc_value();

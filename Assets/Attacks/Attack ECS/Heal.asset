@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b550653b84944614193417fc805cf893, type: 3}
+  m_Name: Heal
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: db4e879c5a34b454ebc44144106482b4, type: 3}
+  shape: 0
+  stats:
+    keys:
+    - Range
+    - Radius
+    - Cooldown
+    - cost
+    values:
+    - stat_name: Range
+      value: 1
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: Radius
+      value: 0
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: Cooldown
+      value: 10
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    - stat_name: cost
+      value: 1
+      max_value: 0
+      has_max: 0
+      active_modifiers: []
+    init: 1
+  components:
+  - {fileID: 114198131639922056}
+  - {fileID: 114229734018042032}
+  - {fileID: 114737330455771362}
+  tags: 0
+  activated_effect: 0
+  target_squares: []
+--- !u!114 &114198131639922056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1358430f1084d74b89a0a1856ad0806, type: 3}
+  m_Name: Add charge on event
+  m_EditorClassIdentifier: 
+  component_name: Add charge on event
+  target_event: Block
+  charge_name: Heal
+  max_charge: 3
+--- !u!114 &114229734018042032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ef68e285538e334fa7659bb784c513a, type: 3}
+  m_Name: Consumes charge
+  m_EditorClassIdentifier: 
+  component_name: Consumes charge
+  charge_name: Heal
+--- !u!114 &114737330455771362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a70ed87dee6e8e14ea8da5057b0ae740, type: 3}
+  m_Name: Applies condition attacker
+  m_EditorClassIdentifier: 
+  component_name: Applies condition attacker
+  condition: {fileID: 11400000, guid: 563ade80e1f8a764f95298068b86e5a1, type: 2}

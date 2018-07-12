@@ -38,7 +38,7 @@ public class game_manager : MonoBehaviour {
     public void unload_level()
     {
         util_ref.hud.add_popup("You descend another floor...");
-        util_ref.events.trigger_event("descend");
+        util_ref.events.trigger_event("descend", util_ref.game_master);
         //Unload current things
         util_ref.i_manager.unload_item();
         Debug.Log("Unloaded items");

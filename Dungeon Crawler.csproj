@@ -346,6 +346,7 @@
     <Compile Include="Assets\add_stat_interact.cs" />
     <Compile Include="Assets\Attacks\Attack ECS\attack_editor.cs" />
     <Compile Include="Assets\Attacks\Attack ECS\attack_entity.cs" />
+    <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\add_charge_on_event_component.cs" />
     <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\adds_charge_component.cs" />
     <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\applies_condition_attacker_component.cs" />
     <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\applies_condition_target_component.cs" />
@@ -359,10 +360,13 @@
     <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\effects_on_enemy_component.cs" />
     <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\force_bool_component.cs" />
     <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\line_limit_targets_component.cs" />
+    <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\no_ff_component.cs" />
     <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\push_component.cs" />
     <Compile Include="Assets\Attacks\Attack ECS\Component Definitions\switch_skill_component.cs" />
     <Compile Include="Assets\Attacks\Temporary Conditions\temporary_condition.cs" />
     <Compile Include="Assets\Attacks\Temporary Conditions\temporary_condition_editor.cs" />
+    <Compile Include="Assets\bitmask_attribute.cs" />
+    <Compile Include="Assets\bitmask_extension.cs" />
     <Compile Include="Assets\boss_manager.cs" />
     <Compile Include="Assets\bounce_effect.cs" />
     <Compile Include="Assets\buyable.cs" />
@@ -381,10 +385,14 @@
     <Compile Include="Assets\Enemies\AI\StateController.cs" />
     <Compile Include="Assets\Enemies\AI\States\State.cs" />
     <Compile Include="Assets\Enemies\AI\Transition.cs" />
+    <Compile Include="Assets\Gods\Criteria.cs" />
+    <Compile Include="Assets\Gods\Has_Stat_Criteria.cs" />
     <Compile Include="Assets\hud_reference_script.cs" />
     <Compile Include="Assets\hud_script.cs" />
+    <Compile Include="Assets\Items\Armor\armor.cs" />
     <Compile Include="Assets\Items\equipment.cs" />
     <Compile Include="Assets\Items\item.cs" />
+    <Compile Include="Assets\Items\Trinkets\Trinket.cs" />
     <Compile Include="Assets\Items\Weapons\weapon.cs" />
     <Compile Include="Assets\loot_table.cs" />
     <Compile Include="Assets\perk_manager.cs" />
@@ -449,6 +457,7 @@
     <Compile Include="Assets\SimpleDragAndDrop\Scripts\DragAndDropItem.cs" />
     <Compile Include="Assets\SimpleDragAndDrop\Scripts\DummyControlUnit.cs" />
     <Compile Include="Assets\SimpleParticlePack\Scripts\ParticleTester.cs" />
+    <Compile Include="Assets\tags.cs" />
     <Compile Include="Assets\torch_flicker.cs" />
   </ItemGroup>
   <ItemGroup>

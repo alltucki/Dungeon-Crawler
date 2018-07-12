@@ -13,6 +13,7 @@ public class event_manager : MonoBehaviour {
 
     private Dictionary<string, UnityEvent> events;
     public attack_data last_attack;
+    public rpg_character last_actor;
 
 	// Use this for initialization
 	void Start () {
@@ -46,8 +47,9 @@ public class event_manager : MonoBehaviour {
         }
     }
 
-    public void trigger_event(string event_name)
+    public void trigger_event(string event_name, rpg_character actor)
     {
+        last_actor = actor;
         //Debug.Log("Triggered " + event_name);
         if (events.ContainsKey(event_name))
         { 

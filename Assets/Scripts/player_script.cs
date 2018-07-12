@@ -34,6 +34,9 @@ public class player_script : MonoBehaviour
         main_camera = Camera.main;
 
         //Equip starting items
+        //Have to do this before we equip items, since we need to reference
+        //this script in the event logging
+        inv.attached_character = this;
         util_ref.p_manager.equip_starting_items();
         util_ref.p_manager.equip_starting_perks();
 

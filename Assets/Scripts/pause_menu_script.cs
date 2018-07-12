@@ -50,7 +50,7 @@ public class pause_menu_script : MonoBehaviour {
     {
         equipment ref_item = util_ref.p_manager.cur_player.GetComponent<player_script>().inv.get_equipped(equip_slot);
         string desc = "";
-        if(ref_item != null)
+        if(ref_item != null && ref_item.skills.Length > 0)
         {
             desc += ref_item.skills[0].name;
         }

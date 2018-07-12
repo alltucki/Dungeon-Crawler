@@ -9,7 +9,6 @@ public enum attack_shape
 
 //DEPRECIATED
 //Use attack_entity
-[CreateAssetMenu(menuName = "Attack", fileName = "Attack.asset")]
 public class Attack : ScriptableObject {
     /*
     public string atk_name;

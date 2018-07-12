@@ -9,6 +9,7 @@ public class attack_entity : ScriptableObject {
     public attack_shape shape;
     [SerializeField]public Stat_Interface stats;
     [SerializeField]public attack_component[] components;
+    [SerializeField][bitmask_attribute(typeof(skill_tags))] skill_tags tags;
     public bool activated_effect;
     public List<Vector2Int> target_squares;
 
@@ -144,6 +145,8 @@ public class attack_entity : ScriptableObject {
                 y += dy2;
             }
         }
+        //Remove the first, origin, square
+        line.RemoveAt(0);
         return line;
     }
 

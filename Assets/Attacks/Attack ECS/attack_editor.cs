@@ -28,6 +28,8 @@ public class attack_editor : Editor
         //Set the icon of the attack
         attack_ref.icon = (Sprite)EditorGUILayout.ObjectField("Icon:", attack_ref.icon, typeof(Sprite), false);
 
+        
+
         //Set the shape, and the range / radius as applicable
         if (attack_ref.shape == attack_shape.single || attack_ref.shape == attack_shape.line)
         {
@@ -126,6 +128,7 @@ public class attack_editor : Editor
             menu.AddItem(new GUIContent("Cooldown"), false, add_component, new cooldown_component());
             menu.AddItem(new GUIContent("Add charge"), false, add_component, new adds_charge_component());
             menu.AddItem(new GUIContent("Consumes charge"), false, add_component, new consumes_charge_component());
+            menu.AddItem(new GUIContent("Add charge on event"), false, add_component, new add_charge_on_event_component());
             menu.ShowAsContext();
         }
 

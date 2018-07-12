@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf8760dab356e848ac7282564e03942, type: 3}
+  m_Name: Plate
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300534, guid: 87fcd87af0631f543a97cbb9e2074278, type: 3}
+  i_type: 1
+  type: 1
+  limit_add: 2
+  skills: []
+  perks:
+  - {fileID: 11400000, guid: a3dfb652c7eb68e438e2c03bf63fcc05, type: 2}
+  - {fileID: 11400000, guid: a3dfb652c7eb68e438e2c03bf63fcc05, type: 2}

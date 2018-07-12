@@ -1483,7 +1483,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 415063497}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.9999997
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1557,7 +1557,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000019086465}
+  m_AnchoredPosition: {x: 0, y: 0.000018894672}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &640813098
@@ -1937,7 +1937,7 @@ MonoBehaviour:
   attached_player: {fileID: 1928093990195970, guid: 59c06da8c05153e4fbce11e6f1ad4b85,
     type: 2}
   equipment:
-  - {fileID: 11400000, guid: 650e986220a5bfb4e99d2657cbbbbd3b, type: 2}
+  - {fileID: 11400000, guid: e09f261e72f0c3046816773df5c262ef, type: 2}
   - {fileID: 11400000, guid: ec9a41d1bf55af14591990053e6aad3a, type: 2}
   perks:
   - {fileID: 11400000, guid: 189f1eb0b4606aa41a31846f84d9fd62, type: 2}
@@ -3603,7 +3603,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1606437391}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.99999976
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4505,6 +4505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66f80dbcdd9c8774d9cdc1aa46d55ecf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  last_actor: {fileID: 0}
 --- !u!4 &1981275078
 Transform:
   m_ObjectHideFlags: 0
@@ -4694,7 +4695,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000019086465}
+  m_AnchoredPosition: {x: 0, y: -0.000011622865}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1992756454

@@ -20,6 +20,7 @@ public class Lootable : Interaction
             return;
         }
         item drop_item = util_ref.cur_palette.container_drops.get_weighted_item();
+        Debug.Log("Dropping " + drop_item.name);
         GameObject looted_item = GameObject.Instantiate(util_ref.pickup_prefab);
         looted_item.transform.position = transform.position;
         looted_item.GetComponent<pickupable>().attached_item = drop_item;

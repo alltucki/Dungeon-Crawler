@@ -50,7 +50,15 @@ public class temporary_condition : ScriptableObject {
             else
             {
                 Debug.Log("Called start of " + name);
-                target_character.stats.add_modifier(on_start_m, on_start_s);
+                if(on_start_l == effect_length.permanent)
+                {
+                    int cur_value = target_character.stats.get_stat_value(on_start_s);
+                    target_character.stats.set_stat(on_start_s, on_start_m.mod_value(cur_value));
+                }
+                else if(on_start_l == effect_length.temporary)
+                {
+                    target_character.stats.add_modifier(on_start_m, on_start_s);
+                }
             }
             turns_remaining = max_turns;
             if (on_start_e != null)
@@ -83,7 +91,15 @@ public class temporary_condition : ScriptableObject {
                 else
                 {
                     Debug.Log("Called on turn of " + name);
-                    target_character.stats.add_modifier(on_turn_m, on_turn_s);
+                    if (on_turn_l == effect_length.permanent)
+                    {
+                        int cur_value = target_character.stats.get_stat_value(on_turn_s);
+                        target_character.stats.set_stat(on_turn_s, on_turn_m.mod_value(cur_value));
+                    }
+                    else if (on_turn_l == effect_length.temporary)
+                    {
+                        target_character.stats.add_modifier(on_turn_m, on_turn_s);
+                    }
                 }
                 if (on_turn_e != null)
                 {

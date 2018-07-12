@@ -41,7 +41,7 @@ public class rpg_character : MonoBehaviour {
 
     public void start_turn()
     {
-        util_ref.events.trigger_event(name + "_start_turn");
+        util_ref.events.trigger_event(name + "_start_turn", this);
         stats.set_stat("Move Actions", stats.get_stat_value("Max Move"));
         stats.set_stat("Attack Actions", stats.get_stat_value("Max Attack"));
         stats.set_stat("Shared Actions", stats.get_stat_value("Max Shared"));
@@ -51,7 +51,7 @@ public class rpg_character : MonoBehaviour {
 
     public void end_turn()
     {
-        util_ref.events.trigger_event(name + "_end_turn");
+        util_ref.events.trigger_event(name + "_end_turn", this);
     }
 
     public void take_damage(attack_data data)
@@ -61,10 +61,14 @@ public class rpg_character : MonoBehaviour {
         //Log the details of this attack for access by other events
         //Then trigger the events
         util_ref.events.last_attack = data;
-        util_ref.events.trigger_event(name + "_start_attacked");
-        util_ref.events.trigger_event(data.attacker.name + "_start_attack");
+        util_ref.events.trigger_event(name + "_start_attacked", this);
+        util_ref.events.trigger_event(data.attacker.name + "_start_attack", data.attacker);
 
         int damage = data.attack_ref.stats.get_stat_value("Damage");
+        if(damage <= stats.get_stat_value("Armor"))
+        {
+            util_ref.events.trigger_event("Block", this);
+        }
         damage -= stats.get_stat_value("Armor");
         if (damage < 0) damage = 0;
         stats.get_stat("Health").set_value(stats.get_stat_value("Health") - damage);
@@ -86,8 +90,8 @@ public class rpg_character : MonoBehaviour {
                 GetComponent<enemy_script>().die();
             }
         }
-        util_ref.events.trigger_event(name + "_end_attacked");
-        util_ref.events.trigger_event(data.attacker.name + "_end_attack");
+        util_ref.events.trigger_event(name + "_end_attacked", this);
+        util_ref.events.trigger_event(data.attacker.name + "_end_attack", data.attacker);
     }
 
     //Generic take_damage method to handle damage outside of
@@ -99,8 +103,8 @@ public class rpg_character : MonoBehaviour {
         //Log the details of this attack for access by other events
         //Then trigger the events
         util_ref.events.last_attack = data;
-        util_ref.events.trigger_event(name + "_start_attacked");
-        util_ref.events.trigger_event(data.attacker.name + "_start_attack");
+        util_ref.events.trigger_event(name + "_start_attacked", this);
+        util_ref.events.trigger_event(data.attacker.name + "_start_attack", data.attacker);
 
         stats.get_stat("Health").set_value(stats.get_stat_value("Health") - damage);
 
@@ -121,8 +125,8 @@ public class rpg_character : MonoBehaviour {
                 GetComponent<enemy_script>().die();
             }
         }
-        util_ref.events.trigger_event(name + "_end_attacked");
-        util_ref.events.trigger_event(data.attacker.name + "_end_attack");
+        util_ref.events.trigger_event(name + "_end_attacked", this);
+        util_ref.events.trigger_event(data.attacker.name + "_end_attack", data.attacker);
     }
 
     public void decrease_attack()

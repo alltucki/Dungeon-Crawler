@@ -39,6 +39,7 @@ public class player_inventory
             unequip(slot);
         }
         equipped[slot] = new_equip;
+        new_equip.on_equip();
         if (new_equip.perks.Count > 0)
         {
             for (int i = 0; i < new_equip.perks.Count; i++)
@@ -48,6 +49,8 @@ public class player_inventory
         }
 
         check_equip_limit(slot);
+
+        util_ref.events.trigger_event("equip", util_ref.game_master);
     }
 
     public void equip(equipment new_equip)
@@ -60,6 +63,7 @@ public class player_inventory
             if(!did_equip && equipped[i] == null)
             {
                 equipped[i] = new_equip;
+                new_equip.on_equip();
                 if (new_equip.perks.Count > 0)
                 {
                     for (int j = 0; j < new_equip.perks.Count; j++)
@@ -76,6 +80,7 @@ public class player_inventory
         {
             equip(new_equip, 0);
         }
+        util_ref.events.trigger_event("equip", attached_character.get_character());
     }
 
     public int unequip(int slot)
@@ -106,9 +111,10 @@ public class player_inventory
         //Find the first empty spot
         int found_slot = pickup(temp);
         equipped[slot] = null;
+        temp.on_unequip();
         Debug.Log("Unequipped target");
-        print_inv();
-
+        //print_inv();
+        util_ref.events.trigger_event("unequip", attached_character.get_character());
         return found_slot;
     }
 

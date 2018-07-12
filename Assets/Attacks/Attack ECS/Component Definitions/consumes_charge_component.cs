@@ -20,15 +20,16 @@ public class consumes_charge_component : attack_component
         }
         int cost = triggering_attack.stats.get_stat_value("cost");
         int charges = attacker.stats.get_stat_value(charge_name);
-        Debug.Log("Attempting to remove " + cost + " charges from " + charges + " " + charge_name);
-        if (charges > cost)
+        //Debug.Log("Attempting to remove " + cost + " charges from " + charges + " " + charge_name);
+        if (charges >= cost)
         {
             attacker.stats.set_stat(charge_name, charges - cost);
-            Debug.Log(charge_name + " is now " + attacker.stats.get_stat_value(charge_name));
+            //Debug.Log(charge_name + " is now " + attacker.stats.get_stat_value(charge_name));
             return true;
         }
         else
         {
+            triggering_attack.target_squares.Clear();
             return false;
         }
     }

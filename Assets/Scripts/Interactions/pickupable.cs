@@ -9,7 +9,7 @@ public class pickupable : Interaction {
 
 	// Use this for initialization
 	void Start () {
-        attached_item = util_ref.i_manager.get_item_obj();
+        //attached_item = util_ref.i_manager.get_item_obj();
 
         if (attached_effect != null)
         {
